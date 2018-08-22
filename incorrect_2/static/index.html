@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DoS</title>
+</head>
+<body>
+
+    <form action="/transform" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" >
+    <select name="sep" >
+        <option value=";">;</option>
+        <option value="|">|</option>
+        <option value="tab">tab</option>
+    </select>
+    <input type="submit" value="Send">
+    </form>
+    
+</body>
+</html>
