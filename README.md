@@ -13,3 +13,5 @@ or not is developer responsibility to close any open files.
 This repository has some examples of improper handling of problem and secure 
 as well. Goal here is to explain the concept of not leaving any resource behind 
 for OS/language to handle for you.
+
+Secure Code Warrior has all rights about this challenge.
